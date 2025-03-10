@@ -1,27 +1,55 @@
-# LoginPage
+# 🎨 System API Auth - Frontend (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+Este é o frontend da aplicação **System API Auth**, desenvolvido com **Angular**. Ele permite a interação com a API de autenticação e gerenciamento de usuários, fornecendo uma interface moderna e responsiva.
 
-## Development server
+Atualmente, a aplicação conta com:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🏠 **Tela de Login e Registro**
+- 🔑 **Autenticação JWT integrada à API**
+- 👤 **Gerenciamento de Usuários**
+- 🚀 **Estrutura pronta para expansão**
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Tecnologias Utilizadas
 
-## Build
+- **Angular (Última versão estável)**
+- **TypeScript**
+- **Angular Material (UI)**
+- **RxJS**
+- **JWT para autenticação**
+- **SCSS para estilização**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 📦 Como Rodar o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Pré-requisitos
 
-## Running end-to-end tests
+- **Node.js** instalado (versão recomendada: LTS)
+- **Angular CLI** instalado
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Passos para execução
 
-## Further help
+1. Clone o repositório:
+   ```sh
+   git clone https://github.com/seu-usuario/system-api-auth-frontend.git
+   cd system-api-auth-frontend
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2. Instale as dependências:
+   ```sh
+    npm install
+
+3. Configure a URL da API no arquivo src/environments/environment.ts:
+   ```sh
+    export const environment = {
+    production: false,
+    apiUrl: 'http://localhost:8080'
+    };
+4. Execute o projeto:
+   ```sh
+    ng serve
+
+5. Acesse no navegador:
+   ```sh
+    http://localhost:4200
