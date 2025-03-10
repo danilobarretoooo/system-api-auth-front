@@ -53,3 +53,10 @@ Atualmente, a aplicação conta com:
 5. Acesse no navegador:
    ```sh
     http://localhost:4200
+
+
+
+📜 Licença
+Este projeto é open-source e pode ser utilizado livremente. 😊
+
+
